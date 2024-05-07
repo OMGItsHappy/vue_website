@@ -1,0 +1,69 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+@import './liftkit/accordions.css';
+@import './liftkit/aspectratios.css';
+@import './liftkit/backgroundcolors.css';
+@import './liftkit/badges.css';
+@import './liftkit/border-radius.css';
+@import './liftkit/buttons.css';
+@import './liftkit/cards.css';
+@import './liftkit/display.css';
+@import './liftkit/fontColor.css';
+@import './liftkit/formelements.css';
+@import './liftkit/gaps.css';
+@import './liftkit/grid.css';
+@import './liftkit/htmlroots.css';
+@import './liftkit/icons.css';
+@import './liftkit/layout.css';
+@import './liftkit/makeImports.sh';
+@import './liftkit/margins.css';
+@import './liftkit/navbar.css';
+@import './liftkit/normalize.css';
+@import './liftkit/opacity.css';
+@import './liftkit/overflow.css';
+@import './liftkit/padding.css';
+@import './liftkit/position.css';
+@import './liftkit/shadows.css';
+@import './liftkit/sizes.css';
+@import './liftkit/snackbars.css';
+@import './liftkit/stateLayers.css';
+@import './liftkit/stickers.css';
+@import './liftkit/tables.css';
+@import './liftkit/textAlignment.css';
+@import './liftkit/typography.css';
+@import './liftkit/variables.css';
+@import './liftkit/webflow.css';
