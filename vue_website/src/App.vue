@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import BioComponent from './components/BioComponent.vue'
+import EducationComponent from './components/EducationComponent.vue'
 </script>
 
 <template>
@@ -8,11 +10,13 @@
   </header>
 
   <main>
-    <h1 class="display1">Hello World</h1>
-    <p class="body">I am here!</p>
+    <div class="display__flex-v gap__xxl" style="padding: 0% 20% 0% 20%;" id="main-body">
+      <EducationComponent />
+      <BioComponent />
+    </div>
+    
   </main>
 </template>
 
 <style scoped>
-
 </style>
