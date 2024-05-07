@@ -1,5 +1,5 @@
 <template>
-    <div class="section" style="">
+    <div class="section" style="justify-items: right;">
         <h1 class="">
             Education
         </h1>
@@ -13,6 +13,7 @@
             Dean&apos;s List Spring 2023<br/>
             Dean&apos;s List Fall 2023<br/><br/>
         </p>
+        
         <div> 
             <!-- TODO: Implemnt course list -->
         </div>        
