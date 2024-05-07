@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BioComponent from './components/BioComponent.vue'
 import EducationComponent from './components/EducationComponent.vue'
+import ContentTemplate from './components/ContentTemplate.vue'
 </script>
 
 <template>
