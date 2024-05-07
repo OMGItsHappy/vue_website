@@ -3,12 +3,12 @@ import { onMounted, nextTick } from 'vue';
 import BioComponent from './components/BioComponent.vue'
 import EducationComponent from './components/EducationComponent.vue'
 
-onMounted(async () => {
+onMounted(async () => { // Apply our classnames to all sections without having to manually add them
   await nextTick(); // Wait for the DOM to update
 
   const sections = document.getElementsByClassName('section');
 
-  Array.from(sections).forEach((section, i) => {
+  Array.from(sections).forEach((section) => {
     section.className = 'display__flex-v';
     Array.from(section.children).forEach((element, j) => {
       switch (j){
