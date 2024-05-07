@@ -5,7 +5,7 @@ import ContentTemplate from './ContentTemplate.vue'
 <template>
     <ContentTemplate 
         title="Education" 
-        subtitle="South Dakota Mines" 
+        subtitle='<a href = "https://www.sdsmt.edu/" class="rich-text">South Dakota Mines</a>' 
         description=' B.S. Computer Science, Math Minor<br/>
             Expected Graduation <span class="titlec__bold">December 2024</span> '
         content="3.5 GPA<br/>
